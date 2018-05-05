@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>HACK C.I DUBLIN</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/gralstyle.css" type="text/css" />
+</head>
+
+<body>
+ <!--NAVBAR-->
+    <nav class="navbar navbar-default" width="100%"> 
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand"><span class='glyphicon glyphicon-envelope'></span> HACK C.I. DUBLIN</a>
+            </div>
+            <div class="col-xs-12 pull-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="transport.html">Transport</a></li>
+                    <li><a href="fooddrink.html">Food&Drinks</a></li>
+                    <li><a href="accomodation.html">Accomodation</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
+
+
+    
+<!--map-->
+<div class="row">
+    <div class="col-md-8 col-md-offset-2" >
+            <iframe width="100%" height="450" frameborder="0" style="border:0; z-index: -1;"
+            src="https://www.google.com/maps/embed/v1/place?q=ibat%20college%20dublin&key=AIzaSyB4-K5d_-oAyqIPvVpruQGbL1bH9o1B8rE" allowfullscreen></iframe>
+    </div>
+</div>
+
+<!--Form-->
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+            <label class="required" for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="50" /><br />
+            <span id="name_validation" class="error_message"></span>
+      </div>
+  </div>
+  
+  <div class="row">
+        <div class=" containerform col-md-6 col-md-offset-3">
+            <label class="required" for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="50" /><br />
+            <span id="email_validation" class="error_message"></span>
+        </div>
+  </div>    
+  
+  <div class="row">
+     <div class=" containerform col-md-6 col-md-offset-3"> 
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+     </div>
+  </div>
+  
+<div class="row">
+    <div class=" containerform col-md-6 col-md-offset-3">
+        <input class="btn btn-success" type="submit" value="Send us an email!"/>
+    </div>
+</div>
+</form> 
+
+<!--FOOTER-->
+     <footer>
+        <img src="img/dublin-footer.png" class='dublin-footer-img' alt='dublin-footer'></img>
+     </footer>
+
+<!--collapsable-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

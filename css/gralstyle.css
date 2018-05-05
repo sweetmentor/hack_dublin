@@ -1,0 +1,448 @@
+body{
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+/*for links etc*/
+.primaryColor{
+    color: #357266;
+}
+.primaryBgColor{
+    background-color: #357266;
+}
+/* texts*/
+.secondaryColor{
+    color: #0E3B43;
+}
+.secondaryBgColor{
+    background-color: #0E3B43;
+}
+
+/*bolds, titles, keywords, button backgrounds*/
+.accentedColor{
+    color: #58355E;
+}
+.accentedBgColor{
+    background-color: #58355E;
+}
+
+/* --------------- Front page css Daz ------------- */
+
+/* sort height later so responsive vh */
+
+.logue {
+    width: 90px;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.a_home {
+    border-bottom: none;
+    padding-bottom: 3px;
+}
+
+.a_home:hover {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.hero_fp {
+    height: 600px;
+    /*background-color: #eee;*/
+}
+
+
+.form-group {
+    border: none;
+}
+
+
+.form-control {
+    font-size: 20px;
+    color: #333;
+    border: none;
+    /*border-bottom: 1px solid #ebebeb;*/
+    border-radius: 0px;
+    width: 33.33%;
+    height: 100px;
+    float: left;
+    padding-left: 30px;
+}
+
+.form-control-feedback {
+   font-size: 20px; 
+   margin-top: 36px;
+   margin-right:25px;
+}
+
+.search_input {
+    width: 100%;
+    /*height: 90px;*/
+    color: #333;
+    border: none;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(120, 53, 94, .6);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(120, 53, 94, .6);
+  outline: 0 none;
+}
+
+.btn-search {
+    height:100px;
+    width:33.33%;
+    border: none;
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+.btn-search:hover {
+    background-color: #945CA0;
+}
+
+
+.hero_text {
+    width: 80%;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.hero_text_form {
+    width: 80%;
+    float: right;
+    padding-right: 70px;
+}
+
+.hero_form {
+    /*padding: 30px;*/
+    height: 200px;
+    margin-bottom: 20px;
+    box-shadow: 2px 1px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* pull these into combined classes tomorrow h1, h2 etc*/
+.hero_text_h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    margin-bottom: 20px;
+}
+
+.hero_text_p {
+    font-weight: 300;
+    color: #a1a1a1;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.hero_a {
+    font-weight: 300;
+    color: #333;
+    float: right;
+}
+
+.img_fap {
+    margin-top: 40px;
+    width: 1000px;
+    height: 500px;
+}
+
+.intercom {
+    background-image: url("img/chat.png");
+    width: 70px;
+    height: 70px;
+    background-color: #58355E;
+    border-radius: 50%;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, .6);
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    z-index: 998;
+}
+
+.intercom_img {
+    width:35px;
+    height:35px;
+    position: relative;
+    top: 28%;
+    left: 25%;
+    z-index: 999;
+}
+
+.btn-success {
+    background-color: #58355E;
+    border-color: #58355E;
+}
+
+.inverse {
+    background-color: #fff;
+    border-color: #58355E;
+    color:#58355E;
+    border-width: 2px;
+    margin-top: 8px;
+}
+
+.inverse:hover {
+    background-color: #58355E;
+    border-color: #58355E;
+    border-width: 2px;
+    color:#fff;
+}
+
+
+
+.fp_nav_btn {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #ebebeb;
+    height: 80px;
+    padding: 15px;
+    width: 100%;
+}
+
+footer {
+    /*height: 500px;*/
+    /*background: url('img/dublin-footer.png');*/
+    /*background-image: url(img/dublin-footer.png');*/
+    
+}
+
+.sort_footer_out_later {
+    height:250px;
+    background-color: #58355E;
+    padding: 70px 20px;
+}
+
+.blahblah{
+    text-decoration: none;
+    list-style:none;
+}
+
+.fop {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_something {
+    list_style: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
+/*.footer_img {*/
+    /*background-image: url(img/dublin-footer.png');*/
+    /*background: url('img/dublin-footer.png');*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*}*/
+
+.dublin-footer-img {
+    width: 100%;
+}
+
+/* really starting to repeat myself sort it out */
+.dub_events_row {
+    padding-top: 10px;
+}
+
+.dub_events_h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.dub_events {
+    margin-bottom: 30px;
+}
+
+/*.dub_events_row_1 {*/
+/*    margin-bottom: 0px;*/
+/*}*/
+
+.dub_events_container {
+    margin-top: 140px;
+    padding: 60px 0 200px 0;
+}
+
+.feature_card {
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+}
+
+.feature_card_text {
+    padding: 20px;
+    
+}
+
+.feature_card_text_p {
+    color: #a1a1a1;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.feature_card_text_h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.reviewsss {
+    background-color: #58355E;
+}
+
+.alan_quote {
+    color: #fff;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 64px;
+    line-spacing: 2;
+    margin-top: 80px;
+}
+
+.alan_sig {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    color: #cbcbcb;
+    font-weight: 100;
+}
+
+.al_div{
+    padding-left: 70px;
+}
+
+.ddd {
+    background-image: url('../img/alan.png');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.aaa {
+    background-image: url('../img/bono-peace.gif');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+.play_btn {
+    color: white;
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin-right: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+.alan_vid {
+    width: 50%;
+    margin-top: 120px;
+}
+
+
+.alan_vid_p {
+    color: white;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.alan_img {
+    
+}
+
+.bottom_bit {
+    height: 500px;
+}
+
+
+
+
+/* --------------- End front page css ------------- */
+
+
+/* --------------- John's css ------------- */
+
+.coffee-header {
+    margin-bottom: 20px;
+}
+
+
+.cafeDescription {
+    margin-bottom: 30px;
+}
+
+.introParagraph {
+    margin: 40px 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .introParagraph {
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    }
+    .introParagraphDiv {
+    width: 80%;
+    margin: 0 auto;
+    }
+    .h1Margin {
+    letter-spacing: 1.5px;
+    margin-top: 60px;
+    font-weight: 700;
+    }
+    .coffee-header {
+    margin-bottom: 40px;
+    }
+    .cafeDescription {
+    letter-spacing: 1.2px;
+        font-size: 18px;
+    }
+}
+
+
+/* --------------- End John's css ------------- */
+
+
+.navback{
+    background-color: white;
+}
+.sizeTransImg{
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+    
+}
+/* --------------- Dolly's css ------------- */
+
+
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius:100%;
+}
